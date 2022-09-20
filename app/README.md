@@ -32,12 +32,16 @@ postgres
 ```bash
 python3 -m venv venv
 ```
-2. Create `.env` file, the example can be found on `.env-example` file. Make sure that you have same variable with your actual postgres db 
-3. Install all the python package dependency
+2. Change directory into `app`
+```bash
+cd app
+```
+3. Create `.env` file, the example can be found on `.env-example` file. Make sure that you have same variable with your actual postgres db 
+4. Install all the python package dependency
 ```bash
 poetry install
 ```
-4. Run db migration
+5. Run db migration
 ```bash
 ./scripts/init_db.sh
 ```
