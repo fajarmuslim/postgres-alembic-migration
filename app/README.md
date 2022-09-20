@@ -7,6 +7,9 @@
 
 ## Prerequisite
 1. Install poetry
+```bash
+pip3 install poetry
+```
 2. Create database, this can be done with docker </br>
 Example: 
 ```bash
@@ -30,9 +33,9 @@ postgres
 python3 -m venv venv
 ```
 2. Create `.env` file, the example can be found on `.env-example` file. Make sure that you have same variable with your actual postgres db 
-3. Change directory into `app`
+3. Install all the python package dependency
 ```bash
-cd app
+poetry install
 ```
 4. Run db migration
 ```bash
