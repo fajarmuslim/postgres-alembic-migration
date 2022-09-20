@@ -39,5 +39,5 @@ poetry install
 ```
 4. Run db migration
 ```bash
-./scripts/test.sh
+./scripts/init_db.sh
 ```
